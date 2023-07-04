@@ -10,3 +10,6 @@ C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDisp
 C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.exe
 C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.xml
 C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.pdb
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.vbproj.CopyComplete
