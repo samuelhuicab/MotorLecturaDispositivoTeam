@@ -7,9 +7,11 @@ Public Class Form1
     Dim jdataHardware
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         Try
-            ProcesoUnico()
+            'ProcesoUnico()
             token = "20852347-9xsrJxKqpyA3acZwKl4J"
             Me.MaximizeBox = False
+            lblfechaanalisis.Text = Format(Now(), "yyyy-MM-dd HH:mm:ss")
+            Timer1_Tick(sender, e)
             Timer1.Start()
         Catch ex As Exception
 
@@ -46,13 +48,14 @@ Public Class Form1
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Try
+            lblfechaanalisis.Text = Format(Now(), "yyyy-MM-dd HH:mm:ss")
             Using client As New WebClient
                 client.Headers.Add("Authorization", "Bearer " & token)
                 ServicePointManager.ServerCertificateValidationCallback = AddressOf ValidateCertificate
                 Dim responseBody As String = client.DownloadString("https://webapi.teamviewer.com/api/v1/monitoring/devices/1667864555/hardware")
                 jdataHardware = JsonConvert.DeserializeObject(Of RspTeamEncabezado)(responseBody)
             End Using
-            MsgBox(jdataHardware.teamviewer_id)
+            MsgBox(jdataHardware.device_name)
         Catch ex As Exception
 
         End Try
