@@ -10,19 +10,7 @@ Public Class Form1
             ProcesoUnico()
             token = "20852347-9xsrJxKqpyA3acZwKl4J"
             Me.MaximizeBox = False
-        Catch ex As Exception
-
-        End Try
-    End Sub
-    Private Sub btnapi_Click(sender As Object, e As EventArgs) Handles btnapi.Click
-        Try
-            Using client As New WebClient
-                client.Headers.Add("Authorization", "Bearer " & token)
-                ServicePointManager.ServerCertificateValidationCallback = AddressOf ValidateCertificate
-                Dim responseBody As String = client.DownloadString("https://webapi.teamviewer.com/api/v1/monitoring/devices/1667864555/hardware")
-                jdataHardware = JsonConvert.DeserializeObject(Of RspTeamEncabezado)(responseBody)
-            End Using
-            MsgBox(jdataHardware.teamviewer_id)
+            Timer1.Start()
         Catch ex As Exception
 
         End Try
@@ -54,5 +42,19 @@ Public Class Form1
             'forzarcierre = True
             Application.Exit()
         End If
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Try
+            Using client As New WebClient
+                client.Headers.Add("Authorization", "Bearer " & token)
+                ServicePointManager.ServerCertificateValidationCallback = AddressOf ValidateCertificate
+                Dim responseBody As String = client.DownloadString("https://webapi.teamviewer.com/api/v1/monitoring/devices/1667864555/hardware")
+                jdataHardware = JsonConvert.DeserializeObject(Of RspTeamEncabezado)(responseBody)
+            End Using
+            MsgBox(jdataHardware.teamviewer_id)
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class
