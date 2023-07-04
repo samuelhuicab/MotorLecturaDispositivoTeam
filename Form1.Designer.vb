@@ -22,10 +22,31 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.btnapi = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'btnapi
+        '
+        Me.btnapi.Location = New System.Drawing.Point(66, 78)
+        Me.btnapi.Name = "btnapi"
+        Me.btnapi.Size = New System.Drawing.Size(119, 48)
+        Me.btnapi.TabIndex = 0
+        Me.btnapi.Text = "Llama Api"
+        Me.btnapi.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(654, 370)
+        Me.Controls.Add(Me.btnapi)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "Form1"
+        Me.Text = "MotorLecturas"
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Friend WithEvents btnapi As Button
 End Class

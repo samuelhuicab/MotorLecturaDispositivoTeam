@@ -1,0 +1,12 @@
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\MotorLecturaDispositivoTeam.exe.config
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\MotorLecturaDispositivoTeam.exe
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\MotorLecturaDispositivoTeam.pdb
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\MotorLecturaDispositivoTeam.xml
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.vbprojAssemblyReference.cache
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.Form1.resources
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.Resources.resources
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.vbproj.GenerateResource.cache
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.vbproj.CoreCompileInputs.cache
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.exe
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.xml
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.pdb
