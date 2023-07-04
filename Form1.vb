@@ -7,6 +7,7 @@ Public Class Form1
     Dim jdataHardware
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         Try
+            ProcesoUnico()
             token = "20852347-9xsrJxKqpyA3acZwKl4J"
             Me.MaximizeBox = False
         Catch ex As Exception
@@ -43,6 +44,15 @@ Public Class Form1
             Me.WindowState = FormWindowState.Minimized
             Me.ShowInTaskbar = False
             Me.Hide()
+        End If
+    End Sub
+    Public Sub ProcesoUnico()
+        Dim aModuleName As String = Diagnostics.Process.GetCurrentProcess.MainModule.ModuleName
+        Dim aProcName As String = System.IO.Path.GetFileNameWithoutExtension(aModuleName)
+        If Process.GetProcessesByName(aProcName).Length > 1 Then
+            MessageBox.Show("El sistema ya se encuentra en ejecucion " & aModuleName.ToString)
+            'forzarcierre = True
+            Application.Exit()
         End If
     End Sub
 End Class
