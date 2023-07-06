@@ -12,3 +12,4 @@ C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDisp
 C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\Newtonsoft.Json.dll
 C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\bin\Debug\Newtonsoft.Json.xml
 C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.vbproj.CopyComplete
+C:\Users\samuel.huicab\source\repos\MotorLecturaDispositivoTeam\MotorLecturaDispositivoTeam\obj\Debug\MotorLecturaDispositivoTeam.vbprojAssemblyReference.cache
